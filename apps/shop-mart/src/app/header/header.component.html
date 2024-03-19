@@ -1,0 +1,27 @@
+<div style="position: fixed; width: 100%; z-index: 1000;">
+  <p class="toolbar">
+    <mat-toolbar color="primary">
+      <button
+        mat-icon-button
+        class="example-icon"
+        (click)="openMenuDialog()"
+        aria-label="Example icon-button with menu icon"
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Shop Mart</span>
+      <span class="example-spacer"></span>
+      <span>
+        <mat-form-field appearance="outline" style="width: 100%">
+          <input matInput placeholder="search here..." style="width: 100%" 
+          />
+          <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
+        </mat-form-field>
+      </span>
+      <span class="example-spacer"></span>
+      <button mat-raised-button type="submit" (click)="logout()"
+      >Logout</button>
+    </mat-toolbar>
+  </p>
+</div>
+

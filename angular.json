@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "api-interfaces": "libs/api-interfaces",
+    "shop-mart": "apps/shop-mart",
+    "shop-mart-e2e": "apps/shop-mart-e2e"
+  },
+"scripts": [
+  "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+  "node_modules/ngx-toastr/toastr.css"
+]
+}
